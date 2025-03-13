@@ -39,10 +39,11 @@ Ensure you have the following installed on your local machine:
    git clone https://github.com/friday006/aiAgentsUi
    cd aiAgentsUi
 2. **Install dependencies:**
-  Using npm:
-```bash
-npm install
-```
+     Using npm:
+   ```bash
+   npm install 
+   ```
 3. To start the application in development mode:
+
    ```bash
    npm run dev
