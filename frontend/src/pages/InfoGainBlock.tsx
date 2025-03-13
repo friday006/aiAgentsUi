@@ -48,7 +48,7 @@ const questionsData: QuestionItem[] = [
       <div className="">
         <div className="mt-3 max-w mx-4 rounded bg-neutral-200 shadow-md">
           {/* Tabs at the top */}
-          <div className="flex flex-wrap items-center justify-around gap-2 md:gap-4">
+          <div className="flex flex-wrap items-center justify-around gap-1">
             {tabs.map((tab) => (
               <button
                 key={tab}

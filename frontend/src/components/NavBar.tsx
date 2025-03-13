@@ -12,7 +12,7 @@ const NavBar: React.FC<NavBarProps> = ({ activeTab, setActiveTab }) => {
 
   return (
     
-      <div className="mt-5 max-w mx-4 bg-neutral-200">
+      <div className="mt-5 max-w mx-4 bg-neutral-200 rounded-md">
         <div className="flex flex-wrap items-center justify-around gap-2 md:gap-4">
           {tabs.map((tab) => (
             <button
