@@ -7,13 +7,12 @@ interface NavBarProps {
 }
 
 const NavBar: React.FC<NavBarProps> = ({ activeTab, setActiveTab }) => {
-  // const [activeTab, setActiveTab] = useState("SERP");
 
   const tabs = ["SERP", "Outline", "Optimize", "Info Gain"];
 
   return (
     
-      <div className="mt-5 max-w mx-4 bg-neutral-200 shadow-md">
+      <div className="mt-5 max-w mx-4 bg-neutral-200">
         <div className="flex flex-wrap items-center justify-around gap-2 md:gap-4">
           {tabs.map((tab) => (
             <button

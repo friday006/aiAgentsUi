@@ -4,36 +4,9 @@ import CardTemplate from '../components/OutlineCard';
 import outlineData from './outlineData.json';
 import { Clipboard, MoreVertical } from "lucide-react";
 
-// interface OutlineBlockData {
-//     id: string;
-//     type: string;
-//     content?: string;
-//     items?: string[];
-// }
-
 
 
 const OutlineBlock: React.FC = () => {
-
-    // console.log(outlineData)
-
-    // Renders each block based on its "type"
-    // const renderBlockContent = (block: OutlineBlockData) => {
-    //     switch (block.type) {
-    //         case "H2":
-    //             return <h2 className="text-xl font-semibold">{block.content}</h2>;
-    //         case "UL":
-    //             return (
-    //                 <ul className="list-disc ml-6">
-    //                     {block.items?.map((item, idx) => (
-    //                         <li key={idx}>{item}</li>
-    //                     ))}
-    //                 </ul>
-    //             );
-    //         default:
-    //             return <p>{block.content}</p>;
-    //     }
-    // };
 
     return (
         <div className="p-4  min-h-screen">
