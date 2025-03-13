@@ -47,3 +47,8 @@ Ensure you have the following installed on your local machine:
 
    ```bash
    npm run dev
+
+## Deployment
+The project is deployed on Vercel. You can view the live demo here:
+
+Live Demo: https://ai-agents-ui-coral.vercel.app/
